@@ -1,4 +1,4 @@
-package com.dysjsjy.sample;
+package com.dysjsjy.基于令牌桶的限流;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

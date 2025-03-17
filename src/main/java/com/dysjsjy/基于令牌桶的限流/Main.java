@@ -1,8 +1,6 @@
-package com.dysjsjy.sample.test;
+package com.dysjsjy.基于令牌桶的限流;
 
-import com.dysjsjy.sample.TokenBucketRateLimiter;
-
-public class TokenBucketRateLimiterTest {
+public class Main {
     public static void main(String[] args) throws InterruptedException {
         // 创建一个容量为 10，速率为 5 个/秒的 RateLimiter
         TokenBucketRateLimiter limiter = new TokenBucketRateLimiter(10, 5.0);
