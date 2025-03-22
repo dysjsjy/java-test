@@ -26,3 +26,6 @@
 **组合**
 > Expression, NumberExpression, BinaryOperatorExpression, AddExpression,
 > DevisionExpression, MinusExpression, MutiplyExpression, ExpressionParser, 
+
+**设计模式**
+> 单例，工厂，抽象工厂，建造者，策略，装饰者，观察者，
