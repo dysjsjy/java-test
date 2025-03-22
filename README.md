@@ -16,8 +16,15 @@
 > PriorityBlockQueue, Trigger, Trigger.Thread, Job,
 
 **AQS**
->
+> AtomicInteger, Thread, AtomicReference, Node,
+> lock, unlock, head, tail,
 
 **令牌桶RateLimiter**
->
+> ReentrantLock, Condition, lastRefillTime, acquire,
+> refill, tryAcquire,
 
+**生产者消费者多线程处理字符串**
+> BlockingQueue, AtomicInteger, ExcutorService,
+
+**迭代器**
+> Iterable, File, cursor, iterator, Iterator, Files.readAllLines, hasNext, next,
