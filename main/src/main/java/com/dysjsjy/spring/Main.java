@@ -1,8 +1,11 @@
 package com.dysjsjy.spring;
 
-public class Main {
 
+/**
+ * @author gongxuanzhangmelt@gmail.com
+ **/
+public class Main {
     public static void main(String[] args) throws Exception {
-        ApplicationContext ioc = new ApplicationContext("com.dysjsjy.spring");
+        new ApplicationContext("tech.insight.spring");
     }
 }

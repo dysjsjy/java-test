@@ -8,9 +8,7 @@ import java.lang.annotation.Target;
 /**
  * @author gongxuanzhangmelt@gmail.com
  **/
-@Target(ElementType.TYPE)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Component {
-    String name() default "";
-
+public @interface PostConstruct {
 }

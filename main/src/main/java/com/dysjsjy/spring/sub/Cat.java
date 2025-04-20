@@ -1,7 +1,12 @@
 package com.dysjsjy.spring.sub;
 
-import com.dysjsjy.spring.Component;
+import tech.insight.spring.Autowired;
+import tech.insight.spring.Component;
+import tech.insight.spring.PostConstruct;
 
+/**
+ * @author gongxuanzhangmelt@gmail.com
+ **/
 @Component
 public class Cat {
 
@@ -12,4 +17,5 @@ public class Cat {
     public void init() {
         System.out.println("Cat创建了 cat里面有一个属性" + dog);
     }
+
 }
